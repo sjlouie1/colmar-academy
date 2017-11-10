@@ -329,6 +329,9 @@ footer {
           #video-section-mobile {
                     display: none;
           }
+          #info-side-mobile {
+                    display: none;
+          }
 }
 @media only screen and (max-width: 480px) {
           body {
@@ -391,6 +394,19 @@ footer {
                     margin-top: 65px;
                     width: 100%;
                     margin-left: 0;
+          }
+          #info-side-mobile {
+                    background-color: floralwhite;
+                    width: 100%;
+          }
+          #info-side-desktop {
+                    display: none;
+          }
+          #info-side-mobile img {
+                    width: 93%;
+          }
+          #info-side-mobile h4 {
+                    margin: 16px 16px;
           }
           #info-main {
                     display: none;
